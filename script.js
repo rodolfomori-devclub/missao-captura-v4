@@ -16,7 +16,7 @@ video.addEventListener("touchstart",()=> {
 
       } else {
         video.pause();
-        // button.style.display = "inline";
+        button.style.display = "inline";
 
       }
 })
