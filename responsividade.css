@@ -1,0 +1,55 @@
+@media (max-width: 800px) {
+    .video-background {
+        display: flex;
+        flex-direction:column ;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+      }
+    .video-background video {
+        object-fit: cover;
+        width: 100%;
+        height: calc(100vh - 150px);
+    }
+    .content {
+        position: relative;
+        z-index: 1;
+        margin-top: -150px;
+        width: 100%;
+        height: 150px;
+        background: linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(0,0,0,0.31838672969187676) 40%, rgba(0,0,0,0) 58%);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+
+    }
+    .content p{
+        text-align: center;
+        font-family: 'Sora-Medium';
+        color: #fff;
+    }
+    .content p:last-child {
+        margin-top: 12px;
+        color: #cfff00;
+    }
+    .logo {
+        width: 230px;
+        margin-bottom: 12px;
+    }
+    #play {
+        display: none;
+        z-index: 4;
+        background-color: rgba(0, 0, 0, 0);
+        width: 80px;
+        height: 80px;       
+    }
+    .content-2 {
+        background-color: rgba(0,0,0,1);
+        width: 100%;
+        color: white;
+    }
+
+
+}

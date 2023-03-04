@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Sora';
+    src: url("./assets/fonts/Sora/Sora-Thin.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Sora-bold';
+    src: url("./assets/fonts/Sora/Sora-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Sora-Medium';
+    src: url('./assets/fonts/Sora/Sora-Medium.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.video-background {
+    display: none;
+}
