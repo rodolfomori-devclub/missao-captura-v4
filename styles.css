@@ -22,3 +22,89 @@
 .video-background {
     display: none;
 }
+body {
+    background-color: #000;
+}
+.versao-desktop{
+    background-image: url('assets/bg-1.webp');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+.main-1-largura{
+    max-width: 1335px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-1-desktop{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    height: 687px;
+    background: rgba(4, 1, 24, 0.58);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin:0 80px;
+    padding: 10px;
+}
+.logo-desktop{
+    padding-top: 50px;
+    margin: 32px 32px 0 32px;
+}
+.p-1, .p-2 , .p-3{
+    color: #fff;
+    font-family: 'Sora';
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.p-1 strong{
+    color: #cfff00;
+    font-size: 20px;
+}
+.p-2, .p-3{
+    color: #fff;
+    font-family: 'Sora-Medium';
+    padding-top: 5px;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+.p-3{
+    padding-top: 20px;
+}
+footer {
+    padding: 32px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    background-color: #02081A;
+}
+
+footer p:first-child {
+    max-width: 70%;
+    color: #fff;
+    font-family: 'Sora';
+    padding: 20px;
+}
+
+footer p:last-child {
+    color: #cfff00;
+    font-family: 'Sora';
+    font-size: 12px;
+}
+::-webkit-scrollbar {
+    width: 8px; 
+    background-color: #ccc;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #cfff00;
+  }
+  
