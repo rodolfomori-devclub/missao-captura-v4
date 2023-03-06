@@ -19,7 +19,7 @@
     box-sizing: border-box;
 }
 
-.video-background {
+.video-background, .content, .mobile {
     display: none;
 }
 body {
