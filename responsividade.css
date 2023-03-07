@@ -5,6 +5,7 @@
   .mobile {
     display: block;
     margin: 0 auto !important;
+    margin-top: 50px !important;
   }
   .video-background {
     display: block;
@@ -21,15 +22,15 @@
   .content {
     position: relative;
     z-index: 1;
-    margin-top: -150px;
-    height: 150px;
+    margin-top: -90px;
+    height: 90px;
     width: 100%;
     background: linear-gradient(
       0deg,
       rgba(0, 0, 0, 1) 10%,
       rgba(0, 0, 0, 0.812937675070028) 47%,
       rgba(0, 0, 0, 0.48800770308123254) 75%,
-      rgba(0, 0, 0, 0) 98%
+      rgba(0, 0, 0, 0) 95%
     );
     display: flex;
     align-items: center;
